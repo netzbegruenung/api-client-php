@@ -1,0 +1,21 @@
+{
+    "name": "netzbegruenung/api-client",
+    "description": "API client for api.netzbegruenung.de",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maximilian Ruta",
+            "email": "maximilian.ruta@netzbegruenung.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "netzbegruenung/api-models": "^0.9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netzbegruenung\\Api\\Client\\": "src/"
+        }
+    }
+}
